@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* ?까지가 파일의 주소 그 뒤로 정보 &로 정보 구분 */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;400;500;700;900&display=swap");
 
 * {
@@ -26,6 +27,7 @@ html {
 }
 
 body {
+  /* italic은 font-style로 지정가능하니까 체크 안함 */
   font-family: "Roboto", "Noto Sans KR", sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -44,9 +46,92 @@ body {
   clear: both;
 }
 
+.container {
+  position: relative;
+  display: block;
+  width: 1200px;
+  margin: 0 auto;
+}
 /* 레이아웃 */
 
 .wrap {
+  position: relative;
+  display: block;
+}
+/* 상단 */
+.header {
+  position: relative;
+  display: block;
+}
+
+/* 비주얼 */
+.visual {
+  position: relative;
+  display: block;
+}
+
+/* 오늘의 상품 */
+.today {
+  position: relative;
+  display: block;
+}
+
+/* 알뜰 상품 */
+.sale {
+  position: relative;
+  display: block;
+}
+
+/* 신상품 */
+.new {
+  position: relative;
+  display: block;
+}
+
+/* 추천 물품 */
+.recommend {
+  position: relative;
+  display: block;
+}
+
+/* 인기 물품 */
+.popular {
+  position: relative;
+  display: block;
+}
+
+/* 브랜드관 */
+.brand {
+  position: relative;
+  display: block;
+}
+
+/* 배너 */
+.banner {
+  position: relative;
+  display: block;
+}
+
+/* 제철요리 */
+.season {
+  position: relative;
+  display: block;
+}
+
+/* 이용후기 */
+.review {
+  position: relative;
+  display: block;
+}
+
+/* 커뮤니티 */
+.community {
+  position: relative;
+  display: block;
+}
+
+/* 하단 */
+.footer {
   position: relative;
   display: block;
 }
